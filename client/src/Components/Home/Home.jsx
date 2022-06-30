@@ -67,7 +67,7 @@ function handlerOrderScore(e){
   return (
     <div className={styles.background}>
         <div className={styles.contentPadre}>
-
+            {console.log(allRecipes)}
             {/* Contenedor navBar */}
             <div className={styles.contNavBarPadre}>
                 <Link to='/' className={styles.title}>Recipers</Link>  

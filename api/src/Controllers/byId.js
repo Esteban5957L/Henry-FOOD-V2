@@ -5,7 +5,7 @@ const { YOUR_API_KEY, YOUR_API_KEY2, YOUR_API_KEY3, YOUR_API_KEY4, YOUR_API_KEY5
 
 const getIdApi = async(id) => {
     try {
-        const apiUrl = await axios.get(`https://api.spoonacular.com/recipes/${id}/information?apiKey=${YOUR_API_KEY4}&number=10`);
+        const apiUrl = await axios.get(`https://api.spoonacular.com/recipes/${id}/information?apiKey=${YOUR_API_KEY2}&number=10`);
        // const recipeInfo = [apiUrl];
         const e = apiUrl.data;
         return {
